@@ -1,0 +1,395 @@
+@charset "ISO-8859-1";
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+	padding: 10px;
+}
+
+/*Header/Blog Title*/
+.header {
+	padding: 30px;
+	background: #243647;
+	overflow-y: auto;
+}
+
+.headerleft {
+	float: left;
+	font-size: 15px;
+	color: white;
+	background: #243647;
+	width: 18%
+}
+
+.headerleft img {
+	width: 200px;
+}
+
+.headerright {
+	float: left;
+	font-size: 15px;
+	background: #243647;
+	height: 105px;
+	width: 80%;
+}
+
+.searchbar {
+	margin-top: 40px;
+	position: relative;
+}
+
+.selectcategories {
+	height: 40px;
+	background: #f2f2f2;
+}
+
+.itemname {
+	height: 40px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+}
+
+.searchbutton {
+	height: 40px;
+	width: 90%;
+	padding-left: 8%;
+}
+
+.inp_header {
+	display: inline-block;
+}
+
+/* Style the top navigation bar */
+.topnav {
+	overflow: hidden;
+	background-color: #2D4459;
+	width: 100%;
+}
+
+/* Style the topnav links */
+.topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.topnav .search-container {
+	float: right;
+}
+
+.topnav input[type=text] {
+	width: 250px;
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 17px;
+	border: none;
+}
+
+.topnav .search-container button {
+	float: right;
+	padding: 6px;
+	margin-top: 8px;
+	margin-right: 16px;
+	background: #ddd;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+	background: #ccc;
+}
+
+.leftnav {
+	padding-left: 18%;
+}
+
+#active {
+	color: orange;
+}
+
+.label {
+	padding-left: 35px;
+}
+
+.loginpageleft {
+	float: left;
+	width: 50%;
+	padding: 10%;
+}
+
+.loginpageleft h2 {
+	font-size: 50px;
+	text-align: center;
+}
+
+.forgotpassword {
+	padding-left: 40%;
+	text-decoration: none;
+}
+
+.bottomlogin {
+	padding-left: 7%;
+}
+
+.error {
+	color: red;
+	padding-left: 30%;
+}
+
+#username, #password {
+	width: 90%;
+	padding: 12px 20px;
+	margin: 10px 35px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.loginbutton {
+	width: 30%;
+	background-color: #ff0000;
+	color: white;
+	padding: 14px 20px;
+	margin: 10px 35px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	position: relative;
+	left: 30%;
+	top: 180%;
+}
+
+.loginpageright {
+	float: right;
+	width: 50%;
+	padding: 10%;
+	color: white;
+	background: #243647;
+	height: 730px;
+}
+
+.loginpageright h2 {
+	font-size: 50px;
+	text-align: center;
+}
+
+.loginpageright p {
+	font-size: 20px;
+	text-align: center;
+}
+
+#login {
+	padding-left: 700px;
+	font-weight: bold;
+	color: blue;
+	font-size: 20px;
+	position: fixed;
+}
+
+.info {
+	position: relative;
+}
+
+.loggedin {
+	width: 100%;
+}
+
+.loggedinpage {
+	background: #243647;
+	color: #c9c9c9;
+}
+
+.loggedinleft {
+	width: 15%;
+	height: 100%;
+	float: left;
+	background: #80808026;
+	border-right-style: solid;
+	border-right-color: black;
+}
+
+.loggedinleft h2 {
+	text-align: center;
+	color: #ff8040;
+	font-size: 13px;
+}
+
+#dashboard {
+	background: #b300b3;
+	padding: 10px;
+	margin: 7px;
+	border-radius: 5px;
+}
+
+.loggedinleft p {
+	padding: 10px;
+	margin: 7px;
+}
+
+.loggedinleft hr {
+	height: 0px;
+	border: none;
+	border-top: 1px solid gray;
+}
+
+.loggedinright {
+	width: 85%;
+	float: right;
+}
+
+.coverimg {
+	width: 100%;
+	height: 300px;
+	position: relative;
+}
+
+.logoutform {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	bottom: 90%;
+}
+
+.member {
+	width: 60%;
+}
+
+.member table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.member th, .member td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid gray;
+	background: #80808026;
+}
+
+#member {
+	background: #b300b3;
+	padding: 10px;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.btn {
+	background: orange;
+}
+
+.cartform {
+	width: 100%;
+}
+
+.cartsubmit {
+	width: 5%;
+	margin-left: 14px;
+}
+
+.pageN {
+	padding-left: 20px;
+}
+
+.productN {
+	font-size: 150%;
+	padding-left: 1%;
+	padding-top: 1%;
+}
+
+.productP {
+	font-size: 200%;
+	color: red;
+	font-weight: bold;
+}
+
+#imgNF {
+	padding-left: 70%;
+	width: 130%;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+	float: left;
+	width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+	float: left;
+	width: 25%;
+	padding-left: 20px;
+}
+
+/* Fake image*/
+.fakeimg {
+	background-color: #aaa;
+	width: 100%;
+	padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+	border-radius: 5%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Footer */
+.bottomnav {
+	height: 46px;
+	background-color: #2D4459;
+	border-top-color: coral;
+	border-top-style: solid;
+}
+
+.footer {
+	padding: 20px;
+	background: #243647;
+	color: orange;
+}
+
+.footerT {
+	text-align: center;
+	padding-left: 35%;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+	.leftcolumn, .rightcolumn {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+	.topnav a {
+		float: none;
+		width: 100%;
+	}
+}
